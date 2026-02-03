@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "219983869733",
+    "firebase_url": "https://polywarleaderboard-default-rtdb.firebaseio.com",
+    "project_id": "polywarleaderboard",
+    "storage_bucket": "polywarleaderboard.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219983869733:android:f01a3464f9bfcc614a0ccc",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.JRProject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUN4198XcMLNy3nPr5OCYssZGCxcRE_JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

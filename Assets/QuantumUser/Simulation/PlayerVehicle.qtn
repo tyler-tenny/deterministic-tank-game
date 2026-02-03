@@ -1,0 +1,47 @@
+component VehicleData {
+	AssetRef<TankConfig> Config;
+	array<AxisData>[4] Axis;
+	bool Grounded;
+	FP TotalCompression;
+	DrivetrainData DriveTrain;
+}
+
+component PlayerVehicle{
+	FPVector2 lookDirection;
+	int maxHealth;
+	int currentHealth;
+}
+
+struct DrivetrainData {
+	FP EngineRPM;
+	int Gear;
+	FrameTimer ShiftTimer;
+}
+
+struct AxisData {
+	FP SteerAngle;
+	FP Torque;
+	FP Downforce;
+	WheelData LeftWheel;
+	WheelData RightWheel;
+	bool Grounded;
+}
+
+struct WheelData {
+    bool Grounded;
+    bool GroundedPrevious;
+    FP Compression;
+    FP CompressionPrevious;
+    FPVector3 AnchorPosition;
+    FPVector3 HitPoint;
+    FPVector3 HitNormal;
+    FPVector3 HitPointPrevious;
+    FP SteerAngle;
+    FP Torque;
+    FP RotationSpeed;
+    FP Grip;
+    FP SuspensionForce;
+	AssetRef<VehicleTerrainModifier> Modifier;
+}
+
+signal ExplosionHitTank(EntityRef explosion, EntityRef victim);

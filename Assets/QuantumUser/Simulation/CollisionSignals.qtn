@@ -1,0 +1,1 @@
+signal OnCollisionProjectile(CollisionInfo3D info, Projectile* projectile);

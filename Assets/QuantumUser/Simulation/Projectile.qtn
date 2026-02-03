@@ -1,0 +1,9 @@
+component Projectile {
+	AssetRef<EntityPrototype> explosion;
+	FP MaxLifetime;
+	EntityRef owner;
+}
+
+signal ExplodeProjectile(EntityRef projectile);
+
+signal TankShoot(EntityRef owner, FPVector3 position, AssetRef<EntityPrototype> projectilePrototype);

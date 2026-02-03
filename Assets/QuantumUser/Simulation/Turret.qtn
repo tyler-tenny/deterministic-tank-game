@@ -1,0 +1,11 @@
+component Turret {
+    EntityRef barrel;
+    EntityRef body;
+    AssetRef<EntityPrototype> barrelProto;
+}
+
+component TurretUpdater {
+    EntityRef turret;
+    EntityRef body;
+    AssetRef<EntityPrototype> turretProto;
+}

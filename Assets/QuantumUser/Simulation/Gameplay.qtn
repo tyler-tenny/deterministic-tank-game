@@ -1,0 +1,48 @@
+singleton component Gameplay
+{
+    _GameplayState State;
+    FP             gameTotalTime;
+    FP             remainingTime;
+    FP             respawnTime;
+    
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+    dictionary<PlayerRef, PlayerData> PlayerData;
+}
+
+enum _GameplayState
+{
+    matchLimbo, //??? LMAO sorry
+    matchRunning,
+    matchEnd
+}
+
+struct PlayerData
+{
+    PlayerRef PlayerRef;
+    FP        RespawnTimer;
+    int       Score;
+    int       StatisticPosition;
+    bool      IsAlive;
+    bool      IsConnected;
+
+    public string PlayerNickname;
+    public int Kills;
+    public int Deaths;
+}
+
+signal PlayerKilled(PlayerRef perpPlayerRef, PlayerRef victimPlayerRef);
+
+event TimerUpdated {
+    FP timeRemaining;
+}
+
+synced event PlayerKilled
+{
+    PlayerRef PerpPlayerRef;
+    PlayerRef VictimPlayerRef;
+}
+
+synced event GameplayStateChanged
+{
+    _GameplayState State;
+}

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1722638350, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: DebugMap
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DebugMap
+    Guid:
+      Value: 426815547240763476
+  UserAsset:
+    Id:
+      Value: 1282824604796424036
+  Scene: DebugGameScene
+  ScenePath: Assets/QuantumUser/Scenes/DebugGameScene.unity
+  SceneGuid: 88ebf5671c5edb845956f8a9ceaf0020
+  WorldSize: 256
+  BucketsCount: 16
+  BucketsSubdivisions: 8
+  BucketingAxis: 0
+  SortingAxis: 1
+  SceneMeshCellSize:
+    RawValue: 262144
+  TriangleMeshCellSize: -1
+  StaticColliders3DTrianglesData:
+    Id:
+      Value: 521446517288068950
+  SerializeTrianglesMetadata: 0
+  GridSizeX: 64
+  GridSizeY: 64
+  GridNodeSize: 4
+  NavMeshLinks: []
+  Regions: []
+  StaticColliders2D: []
+  StaticColliders3D:
+  - Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+    Position:
+      X:
+        RawValue: 315228
+      Y:
+        RawValue: -220856
+      Z:
+        RawValue: 0
+    PhysicsMaterial:
+      Id:
+        Value: 0
+    ShapeType: 4
+    SphereRadius:
+      RawValue: 0
+    CapsuleRadius:
+      RawValue: 0
+    CapsuleHeight:
+      RawValue: 0
+    BoxExtents:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+    SmoothSphereMeshCollisions: 0
+    StaticData:
+      Name: plane
+      Tag: Untagged
+      Layer: 0
+      Asset:
+        Id:
+          Value: 0
+      IsTrigger: 0
+      ColliderIndex: 0
+      MutableMode: 0
+  MapEntities:
+  - Components:
+    - rid: 2661576424283963392
+  - Components:
+    - rid: 993335807823577088
+    - rid: 993335807823577089
+  - Components: []
+  SerializedTriangleDataUncompressedSize: 20828
+  references:
+    version: 2
+    RefIds:
+    - rid: 993335807823577088
+      type: {class: Transform2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
+      data:
+        Position:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        Rotation:
+          RawValue: 0
+    - rid: 993335807823577089
+      type: {class: GameplayPrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
+      data:
+        State:
+          Value: 0
+        gameTotalTime:
+          RawValue: 3932160
+        remainingTime:
+          RawValue: 0
+        respawnTime:
+          RawValue: 0
+        PlayerData: []
+    - rid: 2661576424283963392
+      type: {class: Transform2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
+      data:
+        Position:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        Rotation:
+          RawValue: 0
