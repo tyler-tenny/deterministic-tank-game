@@ -1,5 +1,5 @@
 # Deterministic Tank Game
-A mulitplayer physics-based tank game built in Unity using Photon Quantum's deterministic rollback networking framework. Developed as a team project of three by Aaron Hill, Derek Preston, and Tyler Tenny.
+A multiplayer physics-based tank game built in Unity using Photon Quantum's deterministic rollback networking framework. Developed as a team project of three by Aaron Hill, Derek Preston, and Tyler Tenny.
 
 ## About 
 Built to explore the challenges of networked multiplayer game development, specifically the determinism requirements and architecture constraints of rollback netcode. Uses Photon Quantum's Entity Component System (ECS) architecture and deterministic simulation model.
@@ -51,7 +51,7 @@ Gameplay video available here: https://youtu.be/p7En69X2ucc
 - The tradeoffs between different multiplayer networking models
 - 3D Rigidbody vehicle physics simulating suspension and weight
 - Collaborative development on a shared Unity codebase with Unity Version Control
-- At the time of development, Quantum 3.0 had no examples or documentation for rigidbody physics simulation, only kinematic character controllers. I ended up reaching out to the developers of Photon Quantum for aassistance, and this contributed to Photon subsequently releasing an official rigidbody vehicle physics example project for the framework. 
+- At the time of development, Quantum 3.0 had no examples or documentation for rigidbody physics simulation, only kinematic character controllers. I ended up reaching out to the developers of Photon Quantum for assistance, and this contributed to Photon subsequently releasing an official rigidbody vehicle physics example project for the framework. 
 
 ## Running The Project
 1. Clone the repository
