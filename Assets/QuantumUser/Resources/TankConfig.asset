@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77022acc55cd2b34ab703c62a5ed5013, type: 3}
+  m_Name: TankConfig
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/TankConfig
+    Guid:
+      Value: 282038798748677644
+  WheelConfig:
+    WheelCollisionMask:
+      BitMask: 55
+    WheelRadius:
+      RawValue: 16384
+    WheelMass:
+      RawValue: 0
+    GripSettings:
+      Grip:
+        Samples: []
+        PreWrapMode: 0
+        PostWrapMode: 0
+        StartTime:
+          RawValue: 0
+        EndTime:
+          RawValue: 65536
+        Resolution: 32
+        OriginalPreWrapMode: 0
+        OriginalPostWrapMode: 0
+        Keys: []
+      GripIntensity:
+        RawValue: 655360
+      SpeedScale:
+        RawValue: 655360
+      GripHeifghtOffset:
+        RawValue: -6554
+  Axis:
+  - Turn: 1
+    Traction: 1
+    MaxSteerAngle:
+      RawValue: 0
+    Offset:
+      RawValue: 32768
+    Height:
+      RawValue: -22282
+    Width:
+      RawValue: 58982
+    Spring:
+      RawValue: 114688
+    Damper:
+      RawValue: 13107
+    TorsionBarFactor:
+      RawValue: 49152
+    SuspensionTravel:
+      RawValue: 32768
+  - Turn: 0
+    Traction: 1
+    MaxSteerAngle:
+      RawValue: 0
+    Offset:
+      RawValue: 9830
+    Height:
+      RawValue: -22282
+    Width:
+      RawValue: 58982
+    Spring:
+      RawValue: 114688
+    Damper:
+      RawValue: 13107
+    TorsionBarFactor:
+      RawValue: 49152
+    SuspensionTravel:
+      RawValue: 32768
+  - Turn: 0
+    Traction: 1
+    MaxSteerAngle:
+      RawValue: 0
+    Offset:
+      RawValue: -9830
+    Height:
+      RawValue: -22282
+    Width:
+      RawValue: 58982
+    Spring:
+      RawValue: 114688
+    Damper:
+      RawValue: 13107
+    TorsionBarFactor:
+      RawValue: 65536
+    SuspensionTravel:
+      RawValue: 32768
+  - Turn: 0
+    Traction: 1
+    MaxSteerAngle:
+      RawValue: 0
+    Offset:
+      RawValue: -32768
+    Height:
+      RawValue: -22282
+    Width:
+      RawValue: 58982
+    Spring:
+      RawValue: 114688
+    Damper:
+      RawValue: 13107
+    TorsionBarFactor:
+      RawValue: 65536
+    SuspensionTravel:
+      RawValue: 32768
+  UseGlobalUp: 0
+  GroundDrag:
+    RawValue: 65536
+  AirDrag:
+    RawValue: 32768
+  DownGravityScale:
+    RawValue: 65536
+  ParametricInertia:
+    X:
+      RawValue: 65536
+    Y:
+      RawValue: 65536
+    Z:
+      RawValue: 65536
+  FrontWingCoeficient:
+    RawValue: 16384
+  RearWingCoeficient:
+    RawValue: 16384
+  SteerCurve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    PreWrapMode: 0
+    PostWrapMode: 0
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 8
+    OriginalPostWrapMode: 8
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 1
+      TangentModeRight: 1
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 1
+      TangentModeRight: 1
+      WeightedMode: 0
+  TurnSpeed:
+    RawValue: 5898240
+  HandbrakeFactor:
+    RawValue: 131072
+  UseTorque: 1
+  MaxAngularSpeed:
+    RawValue: 65536
+  AirControlFactor:
+    RawValue: 0
+  Acceleration:
+    RawValue: 196608
+  Brake:
+    RawValue: 196608
+  Debug: 1

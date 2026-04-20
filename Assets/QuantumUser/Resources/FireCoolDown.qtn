@@ -1,0 +1,4 @@
+component FireCoolDown{
+	FP fireCoolDown;
+	AssetRef<EntityPrototype> projectilePrototype;
+}

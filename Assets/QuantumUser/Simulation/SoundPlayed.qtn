@@ -1,0 +1,6 @@
+event SoundPlayed {
+	FPVector3 Position;
+	int SoundID;
+	bool Local;
+	PlayerRef Player;
+}

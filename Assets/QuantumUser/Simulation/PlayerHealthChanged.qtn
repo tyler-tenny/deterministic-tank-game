@@ -1,0 +1,4 @@
+event PlayerHealthChanged { 
+	EntityRef entityRef;
+	int	amount;
+}

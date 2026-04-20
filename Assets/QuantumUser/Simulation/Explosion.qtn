@@ -1,0 +1,9 @@
+component Explosion{
+	FP force;
+	int damage;
+	FP radius;
+	FP maxLifeTime;
+	EntityRef owner;
+}
+
+signal ExplosionHitTank(EntityRef explosion, EntityRef victim);

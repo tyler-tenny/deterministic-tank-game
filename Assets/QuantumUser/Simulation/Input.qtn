@@ -1,0 +1,12 @@
+input {
+    FPVector2 LookRotationDelta;
+    button Left;
+    button Right;
+    button Forward;
+    button Backward;
+    button Jump;
+    button Escape;
+    button Fire;
+    button Respawn;
+    button Aim;
+}

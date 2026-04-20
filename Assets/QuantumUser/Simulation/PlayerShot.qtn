@@ -1,0 +1,3 @@
+event PlayerShot{
+	EntityRef Entity;
+}
